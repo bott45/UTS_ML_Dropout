@@ -1,0 +1,11 @@
+skenario,model,F1,F1_std,recall,precision,ROC_AUC,F1_CI_bawah,F1_CI_atas
+tanpa akademik,Baseline,0.0,0.0,0.0,0.0,0.5,0.0,0.0
+tanpa akademik,Decision Tree,0.599,0.025,0.62,0.584,0.763,0.546,0.652
+tanpa akademik,Random Forest,0.634,0.014,0.679,0.595,0.813,0.604,0.664
+tanpa akademik,SVM,0.644,0.006,0.657,0.632,0.818,0.632,0.656
+tanpa akademik,kNN,0.469,0.02,0.373,0.632,0.698,0.427,0.51
+dengan akademik,Baseline,0.0,0.0,0.0,0.0,0.5,0.0,0.0
+dengan akademik,Decision Tree,0.748,0.018,0.79,0.71,0.87,0.71,0.785
+dengan akademik,Random Forest,0.769,0.02,0.793,0.747,0.907,0.728,0.81
+dengan akademik,SVM,0.783,0.01,0.781,0.785,0.916,0.762,0.803
+dengan akademik,kNN,0.682,0.025,0.581,0.827,0.839,0.63,0.735
