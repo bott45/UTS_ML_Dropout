@@ -19,7 +19,8 @@ dan F1 dipakai sebagai metrik utama. Berbeda dari keduanya, target dibuat biner
 - `data/raw/` data asli, `data/processed/` hasil pembagian train (80%) dan test (20%)
 - `notebooks/` 01_eda, 02_praproses, 03_model_cv
 - `src/pipeline.py` praproses (one-hot, penskalaan) dalam Pipeline
-- `results/` hasil nested CV dan hasil uji
+- `results/` hasil validasi silang, hasil uji, dan kamus nama kolom
+- `report/gambar/` gambar untuk laporan
 
 ## Cara menjalankan
 pip install -r requirements.txt, lalu jalankan notebook berurutan 01, 02, 03.
